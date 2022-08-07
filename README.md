@@ -1,2 +1,2 @@
-# Criando um front-end totalmente componentizado na prática com ReactJS - DIO
-Criando um front-end totalmente componentizado na prática com ReactJS
+# Integrando um Backend em Node.js com um Frontend em React para um E-commerce - DIO
+Integrando um Backend em Node.js com um Frontend em React para um E-commerce
