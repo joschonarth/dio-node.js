@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import cartActions from '../store/actions/cart';
+import './cart.css';
 
 const Cart = () => {
     const cart = useSelector(state => state.cart)
@@ -13,7 +14,7 @@ const Cart = () => {
     }
 
     if(cart.value > 0){
-        localStorage.setItem('dioshopping: cart', JSON.stringify(cart))
+        localStorage.setItem('netshirts: cart', JSON.stringify(cart))
     }
 
     return(

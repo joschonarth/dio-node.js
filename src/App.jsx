@@ -7,7 +7,7 @@ import Header from './components/Header';
 
 const App = () => {
   
-  const localCart = JSON.parse(localStorage.getItem('dioshopping: cart'))
+  const localCart = JSON.parse(localStorage.getItem('netshirts: cart'))
   
   if(localCart !== null) {
     store.dispatch({type: 'CHANGE_CART', localCart})

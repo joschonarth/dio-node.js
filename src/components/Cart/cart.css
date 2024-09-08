@@ -1,0 +1,108 @@
+.btn-info {
+    position: relative;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.btn-info .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.modal-content {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 15px rgba(117, 12, 103, 0.3);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #ccc;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table-hover th, .table-hover td {
+    vertical-align: middle;
+}
+
+.table-hover img {
+    border-radius: 5px;
+}
+
+.badge {
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge.bg-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.table-hover th, .table-hover td {
+    padding: 10px;
+}
+
+.table-hover th {
+    background-color: #f1f1f1;
+}
+
+.table-hover th, .table-hover td {
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #607483;
+}

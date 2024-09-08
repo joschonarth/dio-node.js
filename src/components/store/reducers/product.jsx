@@ -124,7 +124,7 @@ const productsList = [
     id_product: 12,
     category: "europeu",
     fk_idcategorys: 2,
-    name_product: "Juventus Away 2024",
+    name_product: "Juventus Away",
     price: 230,
     image: "./images/produtos/juventus-away.png",
     id_categorys: 2,
