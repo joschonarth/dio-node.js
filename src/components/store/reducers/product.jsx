@@ -1,0 +1,257 @@
+const productsList = [
+  {
+    id_product: 1,
+    category: "nacional",
+    fk_idcategorys: 1,
+    name_product: "Flamengo 2024",
+    price: 300,
+    image: "./images/produtos/fla.png",
+    id_categorys: 1,
+    name_categorys: "Clubes brasileiros",
+    selected: false
+  },
+  {
+    id_product: 2,
+    category: "nacional",
+    fk_idcategorys: 1,
+    name_product: "Palmeiras 2024",
+    price: 350,
+    image: "./images/produtos/palmeiras.png",
+    id_categorys: 1,
+    name_categorys: "Clubes brasileiros",
+    selected: false
+  },
+  {
+    id_product: 3,
+    category: "nacional",
+    fk_idcategorys: 1,
+    name_product: "Corinthans 2024",
+    price: 230,
+    image: "./images/produtos/corinthans.png",
+    id_categorys: 1,
+    name_categorys: "Clubes brasileiros",
+    selected: false
+  },
+  {
+    id_product: 4,
+    category: "nacional",
+    fk_idcategorys: 1,
+    name_product: "São Paulo 2024",
+    price: 230,
+    image: "./images/produtos/sao-paulo.png",
+    id_categorys: 1,
+    name_categorys: "Clubes brasileiros",
+    selected: false
+  },
+  {
+    id_product: 5,
+    category: "nacional",
+    fk_idcategorys: 1,
+    name_product: "Santos 2024",
+    price: 230,
+    image: "./images/produtos/santos.png",
+    id_categorys: 1,
+    name_categorys: "Clubes brasileiros",
+    selected: false
+  },
+  {
+    id_product: 6,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Real Madrid 2024",
+    price: 230,
+    image: "./images/produtos/real.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 7,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Real Madrid Away",
+    price: 230,
+    image: "./images/produtos/real-away.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 8,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Man. City 2024",
+    price: 230,
+    image: "./images/produtos/man-city.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 9,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Man. United 2024",
+    price: 230,
+    image: "./images/produtos/man-utd.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 10,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Arsenal 2024",
+    price: 230,
+    image: "./images/produtos/arsenal.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 11,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Juventus 2024",
+    price: 230,
+    image: "./images/produtos/juventus.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 12,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Juventus Away 2024",
+    price: 230,
+    image: "./images/produtos/juventus-away.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 13,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Milan 2024",
+    price: 230,
+    image: "./images/produtos/milan.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 14,
+    category: "europeu",
+    fk_idcategorys: 2,
+    name_product: "Milan Away 2024",
+    price: 230,
+    image: "./images/produtos/milan-away.png",
+    id_categorys: 2,
+    name_categorys: "Clubes europeus",
+    selected: false
+  },
+  {
+    id_product: 15,
+    category: "selecao",
+    fk_idcategorys: 4,
+    name_product: "Brasil 2024",
+    price: 350,
+    image: "./images/produtos/brasil.jpg",
+    id_categorys: 4,
+    name_categorys: "Seleções nacionais",
+    selected: false
+  },
+  {
+    id_product: 16,
+    category: "selecao",
+    fk_idcategorys: 4,
+    name_product: "Argentina 2024",
+    price: 350,
+    image: "./images/produtos/argentina.png",
+    id_categorys: 4,
+    name_categorys: "Seleções nacionais",
+    selected: false
+  },
+  {
+    id_product: 17,
+    category: "selecao",
+    fk_idcategorys: 4,
+    name_product: "Itália 2024",
+    price: 350,
+    image: "./images/produtos/italia.png",
+    id_categorys: 4,
+    name_categorys: "Seleções nacionais",
+    selected: false
+  },
+  {
+    id_product: 18,
+    category: "selecao",
+    fk_idcategorys: 4,
+    name_product: "Alemanha 2024",
+    price: 350,
+    image: "./images/produtos/alemanha.png",
+    id_categorys: 4,
+    name_categorys: "Seleções nacionais",
+    selected: false
+  },
+  {
+    id_product: 19,
+    category: "historica",
+    fk_idcategorys: 3,
+    name_product: "Brasil Retrô",
+    price: 350,
+    image: "./images/produtos/brasil94.jpg",
+    id_categorys: 3,
+    name_categorys: "Camisas históricas",
+    selected: false
+  },
+  {
+    id_product: 20,
+    category: "historica",
+    fk_idcategorys: 3,
+    name_product: "Holanda Retrô",
+    price: 350,
+    image: "./images/produtos/holanda-retro.png",
+    id_categorys: 3,
+    name_categorys: "Camisas históricas",
+    selected: false
+  },
+  {
+    id_product: 21,
+    category: "historica",
+    fk_idcategorys: 3,
+    name_product: "Alemanha Retrô",
+    price: 350,
+    image: "./images/produtos/alemanha-retro.png",
+    id_categorys: 3,
+    name_categorys: "Camisas históricas",
+    selected: false
+  },
+  {
+    id_product: 22,
+    category: "casual",
+    fk_idcategorys: 5,
+    name_product: "Real Madrid Third",
+    price: 350,
+    image: "./images/produtos/real-third.png",
+    id_categorys: 5,
+    name_categorys: "Casuais",
+    selected: false
+  },
+  {
+    id_product: 23,
+    category: "casual",
+    fk_idcategorys: 5,
+    name_product: "Juventus Third",
+    price: 350,
+    image: "./images/produtos/juventus-third.png",
+    id_categorys: 5,
+    name_categorys: "Casuais",
+    selected: false
+  },
+];
+
+export default productsList;
