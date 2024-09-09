@@ -24,14 +24,6 @@ Este projeto demonstra a integração de um backend em Node.js com um frontend e
 - [<img src="https://skillicons.dev/icons?i=redux&theme=dark" width="25" align="center">](https://redux.js.org/)
  **`Redux`**: Biblioteca para gerenciamento de estado global, facilitando a manipulação e persistência de dados do carrinho de compras entre componentes.
 
-<div align="center">
-
-[<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="50">](https://nodejs.org/)
-[<img src="https://skillicons.dev/icons?i=react&theme=dark" width="50">](https://react.dev/)
-[<img src="https://skillicons.dev/icons?i=redux&theme=dark" width="50">](https://redux.js.org/)
-
-</div>
-
 ## 🌐 Teste o Projeto
 
 Você pode testar o projeto acessando o link abaixo:
