@@ -19,8 +19,6 @@ Este projeto demonstra a integração de um backend em Node.js com um frontend e
 
 ## 🛠️ Tecnologias Utilizadas
 
-## 🛠️ Tecnologias Utilizadas
-
 - [<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="25" align="center">](https://nodejs.org/) **`Node.js`**: Ambiente de execução JavaScript para o desenvolvimento do lado do servidor.
 - [<img src="https://skillicons.dev/icons?i=react&theme=dark" width="25" align="center">](https://react.dev/) **`React`**: Biblioteca frontend para construção da interface de usuário.
 - [<img src="https://skillicons.dev/icons?i=redux&theme=dark" width="25" align="center">](https://redux.js.org/)
