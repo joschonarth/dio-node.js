@@ -1,6 +1,6 @@
 # 🛒 Integrando um Backend em Node.js com um Frontend em React para um E-commerce
 
-Este projeto demonstra a integração de um backend em Node.js com um frontend em React para um sistema de e-commerce.
+Este projeto demonstra a integração de um backend em Node.js com um frontend em React para um sistema de E-commerce.
 
 ## 🎥 Demonstração
 
@@ -12,12 +12,16 @@ Este projeto demonstra a integração de um backend em Node.js com um frontend e
 
 ## ⚙️ Funcionalidades
 
+- Adicionar produtos ao carrinho de compras.
+- Editar a quantidade de itens no carrinho.
+- Visualizar o resumo do carrinho com a quantidade de produtos e o preço total.
 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **`Node.js`**: Backend para lidar com requisições, APIs e gerenciamento de dados.
+- **`Node.js`**: Ambiente de execução JavaScript para o desenvolvimento do lado do servidor.
 - **`React`**: Biblioteca frontend para construção da interface de usuário.
+
 
 ## 🌐 Teste o Projeto
 
@@ -35,28 +39,38 @@ Você pode testar o projeto acessando o link abaixo:
 git clone https://github.com/joschonarth/react-ecommerce
 ```
 
-📌 **2.** Abra o arquivo `index.html` em um navegador.
+📌 **2.** Instale as dependências:
 
-📌 **3.** Utilize a interface para:
+```bash
+npm install
+```
 
-* Adicionar novas tarefas.
-* Marcar ou desmarcar tarefas como concluídas.
-* Editar o conteúdo de uma tarefa.
-* Remover tarefas indesejadas.
-* Filtrar tarefas entre "Concluídas" e "A Fazer".
-* Pesquisar uma tarefa específica pelo nome.
+📌 **3.** Inicie o servidor:
 
-📌 **4.** As tarefas são automaticamente salvas no localStorage e persistem entre as sessões.
+```bash
+npm run start
+```
+
+📌 **4.** Acesse a aplicação no navegador em `http://localhost:3000` para utilizar o e-commerce.
 
 ## 🗂️ Estrutura do Projeto
 
 ```bash
-📁 js-to-do-list/
-├── 📄 index.html
-├── 📁 css/
-│   └── 📄 style.css
-└── 📁 js/
-    └── 📄 script.js
+📁 react-ecommerce/
+├── 📁 public/
+│   └── 📄 index.html
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── 📁 Cart/
+│   │   └── 📁 store/
+│   │       ├── 📁 actions/
+│   │       └── 📁 reducers/
+│   ├── 📁 pages/
+│   ├── 📁 styles/
+│   ├── 📄 App.jsx
+│   ├── 📄 index.jsx
+│   └── 📄 routes.jsx
+└── 📄 package.json
 ```
 
 ## 🤝 Contribuições
