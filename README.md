@@ -27,7 +27,7 @@ Este projeto demonstra a integração de um backend em Node.js com um frontend e
 
 Você pode testar o projeto acessando o link abaixo:
 
-[**🔗 Acesse o E-commerce Online**](https://react-ecommerce-ashy-nine.vercel.app/)
+🔗 [**Acesse o E-commerce Online**](https://react-ecommerce-ashy-nine.vercel.app/)
 
 [![Demonstração do Projeto](assets/react-ecommerce.png)](https://react-ecommerce-ashy-nine.vercel.app/)
 
